@@ -1,0 +1,69 @@
+(module "Kailh-PG1350-choc-2u-plate-cutout-stabilized" (layer "F.Cu") (tedit 60648B3F)
+  (attr through_hole)
+  (fp_text reference "Kailh PG1350" (at 0 -7.14375 180) (layer "Dwgs.User")
+    (effects (font (size 1 1) (thickness 0.2)))
+    (tstamp 1214deb0-253d-4eb3-ba19-b0d2216bb03b)
+  )
+  (fp_text value "Choc" (at 0 -5.08 180) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.2)))
+    (tstamp fb47add1-fab3-45aa-845f-67ed4fc0cdc9)
+  )
+  (fp_line (start 9 -8.5) (end 9 8.5) (layer "Dwgs.User") (width 0.1524) (tstamp 12fa2966-9490-4a1e-b4fb-9e57c18bcff9))
+  (fp_line (start 9 8.5) (end -9 8.5) (layer "Dwgs.User") (width 0.1524) (tstamp 3aeae647-a959-4018-8af0-09c718626c49))
+  (fp_line (start -9 8.5) (end -9 -8.5) (layer "Dwgs.User") (width 0.1524) (tstamp 45ab26de-1080-4682-befb-cf2fe2003686))
+  (fp_line (start -9 -8.5) (end 9 -8.5) (layer "Dwgs.User") (width 0.1524) (tstamp de906b61-d320-4f18-be34-6b2febf4e654))
+  (fp_line (start 7 -7) (end 7 7) (layer "Edge.Cuts") (width 0.1524) (tstamp 1898ce61-14f9-43c1-96f6-e8e0160164b5))
+  (fp_line (start -7 -7) (end 7 -7) (layer "Edge.Cuts") (width 0.1524) (tstamp 1c4ed965-cdb7-4523-bb45-babb0dd35264))
+  (fp_line (start 13.79 -8.45) (end 13.79 -3.8) (layer "Edge.Cuts") (width 0.05) (tstamp 1e9f90b7-343e-4fc3-8c8d-b0f12d9e0fc5))
+  (fp_line (start 10.187905 -8.450625) (end 10.187905 -3.800625) (layer "Edge.Cuts") (width 0.05) (tstamp 4f374a32-0308-4cf9-8ac2-748c5fde2e89))
+  (fp_line (start -13.802026 -3.804067) (end -15.152026 -3.804067) (layer "Edge.Cuts") (width 0.05) (tstamp 522fe000-d094-4fbf-8d58-b0a59550468b))
+  (fp_line (start 10.19 -8.45) (end 13.79 -8.45) (layer "Edge.Cuts") (width 0.05) (tstamp 5eb7e4f7-6939-4017-b309-a6219601a554))
+  (fp_line (start 8.84 3.05) (end 15.14 3.05) (layer "Edge.Cuts") (width 0.05) (tstamp 6c4cc58c-2703-46a0-8e42-6c30ef416d53))
+  (fp_line (start -8.849931 -3.803442) (end -8.849931 3.046558) (layer "Edge.Cuts") (width 0.05) (tstamp 6daa275b-4c0e-428f-aa60-921332706edc))
+  (fp_line (start 7 7) (end -7 7) (layer "Edge.Cuts") (width 0.1524) (tstamp 6e25b88a-7280-4572-92c1-0a8a60b84bd2))
+  (fp_line (start -15.149931 3.046558) (end -8.849931 3.046558) (layer "Edge.Cuts") (width 0.05) (tstamp 72a6a5b4-56e0-45d9-b097-a430cc51db7a))
+  (fp_line (start -13.802026 -8.454067) (end -13.802026 -3.804067) (layer "Edge.Cuts") (width 0.05) (tstamp 7a93dddc-2cda-4f70-bb69-35765856c42e))
+  (fp_line (start -10.199931 -3.803442) (end -8.849931 -3.803442) (layer "Edge.Cuts") (width 0.05) (tstamp 7c305c74-40c9-4b6b-b49a-12803d6684d1))
+  (fp_line (start 15.14 -3.8) (end 15.14 3.05) (layer "Edge.Cuts") (width 0.05) (tstamp 9136ff67-9a2d-42f6-8636-3803cbcedf50))
+  (fp_line (start -10.199931 -8.453442) (end -10.199931 -3.803442) (layer "Edge.Cuts") (width 0.05) (tstamp 966fd704-68a3-42a4-a9e3-339bb62b6479))
+  (fp_line (start 8.837905 -3.800625) (end 8.837905 3.049375) (layer "Edge.Cuts") (width 0.05) (tstamp 9b258af0-499e-4cfb-8904-f13f3a51dc7b))
+  (fp_line (start 13.79 -3.8) (end 15.14 -3.8) (layer "Edge.Cuts") (width 0.05) (tstamp 9becd959-6a6d-4b63-a7e2-9c7f5bc8643b))
+  (fp_line (start -7 7) (end -7 -7) (layer "Edge.Cuts") (width 0.1524) (tstamp a35b4658-97ae-49fb-a1d2-451b3e03b88d))
+  (fp_line (start -15.152026 -3.804067) (end -15.152026 3.045933) (layer "Edge.Cuts") (width 0.05) (tstamp ac79648b-7ebc-462f-8a34-25203b172b6f))
+  (fp_line (start 10.187905 -3.800625) (end 8.837905 -3.800625) (layer "Edge.Cuts") (width 0.05) (tstamp c36482bd-3fef-426f-a312-1f5eecf66956))
+  (fp_line (start -13.799931 -8.453442) (end -10.199931 -8.453442) (layer "Edge.Cuts") (width 0.05) (tstamp fa49a966-8067-43da-bddc-7bd761b44ce8))
+  (group "" (id 19bfc76f-8562-4ea3-a1d4-32bfb493d86b)
+    (members
+      522fe000-d094-4fbf-8d58-b0a59550468b
+      6daa275b-4c0e-428f-aa60-921332706edc
+      72a6a5b4-56e0-45d9-b097-a430cc51db7a
+      7a93dddc-2cda-4f70-bb69-35765856c42e
+      7c305c74-40c9-4b6b-b49a-12803d6684d1
+      966fd704-68a3-42a4-a9e3-339bb62b6479
+      ac79648b-7ebc-462f-8a34-25203b172b6f
+      fa49a966-8067-43da-bddc-7bd761b44ce8
+ )
+  )
+  (group "" (id a91d3146-7838-4918-8dc4-ccf78400ded3)
+    (members
+      1e9f90b7-343e-4fc3-8c8d-b0f12d9e0fc5
+      4f374a32-0308-4cf9-8ac2-748c5fde2e89
+      5eb7e4f7-6939-4017-b309-a6219601a554
+      6c4cc58c-2703-46a0-8e42-6c30ef416d53
+      9136ff67-9a2d-42f6-8636-3803cbcedf50
+      9b258af0-499e-4cfb-8904-f13f3a51dc7b
+      9becd959-6a6d-4b63-a7e2-9c7f5bc8643b
+      c36482bd-3fef-426f-a312-1f5eecf66956
+ )
+  )
+  (model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/mx-switch.wrl"
+    (offset (xyz 7.4675998878479 7.4675998878479 5.943599910736085))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 270 0 180))
+  )
+  (model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/SA-R3-1u.wrl"
+    (offset (xyz 0 0 11.93799982070923))
+    (scale (xyz 0.394 0.394 0.394))
+    (rotate (xyz 270 0 0))
+  )
+)
